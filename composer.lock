@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bf41831f982e43c691a30cf794da89e",
+    "content-hash": "7167da2ff7538b222b7210fabb4ad40b",
     "packages": [
         {
             "name": "bimthebam/silverstripe-native-color-input",
@@ -11075,5 +11075,5 @@
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
