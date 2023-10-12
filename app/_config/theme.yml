@@ -11,4 +11,4 @@ Sunnysideup\WebpackRequirementsBackend\Api\Configuration:
   webpack_theme: theme-info-only
 
 SilverStripe\Control\Email\Email:
-  admin_email: `SS_ADMIN_EMAIL`
+  admin_email: '`SS_ADMIN_EMAIL`'
