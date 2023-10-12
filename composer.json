@@ -1,7 +1,7 @@
 {
-  "name": "demo.found-it-already/website",
-  "description": "Reduce your mental load",
-  "license": "MIT Custom",
+  "name": "found-it-already/website",
+  "description": "Customer website",
+  "license": "proprietary",
   "authors": [
     {
       "name": "Sunny Side Up",
@@ -11,10 +11,12 @@
   ],
   "require": {
     "php": ">=8.1",
-    "silverstripe/recipe-cms": "5.x-dev",
     "bimthebam/silverstripe-native-color-input": "*",
+    "firesphere/cspheaders": "dev-master",
     "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
     "silverstripe/mfa": "^4 || ^5",
+    "silverstripe/recipe-cms": "5.x-dev",
+    "silverstripe/framework": "^5.0.20",
     "silverstripe/totp-authenticator": "^4 || ^5",
     "silverstripe/webauthn-authenticator": "^4 || ^5",
     "sunnysideup/cms-dark-theme": "dev-main",

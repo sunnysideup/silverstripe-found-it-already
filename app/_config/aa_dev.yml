@@ -1,4 +1,5 @@
 ---
+Name: app-dev
 Only:
   environment: 'dev'
 ---
@@ -29,7 +30,6 @@ SilverLeague\IDEAnnotator\DataObjectAnnotator:
     - sunnysideup/title_dataobject
     - sunnysideup/uuid
     - sunnysideup/webpack_requirements_backend
-
 
 LeKoala\DebugBar\DebugBar:
   enable_storage: true

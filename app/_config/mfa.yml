@@ -1,5 +1,5 @@
 ---
-Name: mydevconfig
+Name: app-mfa
 Only:
   environment: dev
 ---
