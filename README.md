@@ -1,7 +1,7 @@
 
 # Infancy
 
-Found-it-Already is under active development. 
+Found-it-Already is under active development.  We have no idea if it is going to fly. Join us now to make it fly. 
 
 # installation
 

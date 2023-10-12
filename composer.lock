@@ -773,12 +773,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Firesphere/silverstripe-csp-headers.git",
+<<<<<<< HEAD
                 "reference": "a4a45f5b524bb9ff6144d934ba254c62c2ff4aa2"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Firesphere/silverstripe-csp-headers/zipball/a4a45f5b524bb9ff6144d934ba254c62c2ff4aa2",
                 "reference": "a4a45f5b524bb9ff6144d934ba254c62c2ff4aa2",
+=======
+                "reference": "1de49bb500113fec7ea7858dc54c2ee529480019"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Firesphere/silverstripe-csp-headers/zipball/1de49bb500113fec7ea7858dc54c2ee529480019",
+                "reference": "1de49bb500113fec7ea7858dc54c2ee529480019",
+>>>>>>> develop
                 "shasum": ""
             },
             "require": {
@@ -818,7 +827,11 @@
                 "issues": "https://github.com/Firesphere/silverstripe-csp-headers/issues",
                 "source": "https://github.com/Firesphere/silverstripe-csp-headers/tree/master"
             },
+<<<<<<< HEAD
             "time": "2023-09-24T09:44:00+00:00"
+=======
+            "time": "2023-10-11T22:55:17+00:00"
+>>>>>>> develop
         },
         {
             "name": "fromholdio/silverstripe-colorpalette",
@@ -3503,12 +3516,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-cms-userswitcher.git",
+<<<<<<< HEAD
                 "reference": "7e03dc216727d0dc17772678d9c9ae6a3a7ed31f"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sunnysideup/silverstripe-cms-userswitcher/zipball/7e03dc216727d0dc17772678d9c9ae6a3a7ed31f",
                 "reference": "7e03dc216727d0dc17772678d9c9ae6a3a7ed31f",
+=======
+                "reference": "1d9ab3081c37242e7e7088a7e5e0e96ba1429dcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-cms-userswitcher/zipball/1d9ab3081c37242e7e7088a7e5e0e96ba1429dcf",
+                "reference": "1d9ab3081c37242e7e7088a7e5e0e96ba1429dcf",
+>>>>>>> develop
                 "shasum": ""
             },
             "require": {
@@ -3551,7 +3573,11 @@
                 "issues": "https://github.com/sandervanscheepen/silverstripe-cms-userswitcher/issues",
                 "source": "https://github.com/sunnysideup/silverstripe-cms-userswitcher/tree/master"
             },
+<<<<<<< HEAD
             "time": "2023-10-05T20:33:32+00:00"
+=======
+            "time": "2023-10-11T20:40:51+00:00"
+>>>>>>> develop
         },
         {
             "name": "sebastian/diff",
@@ -6592,12 +6618,21 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
+<<<<<<< HEAD
                 "reference": "b514ae02d0a32ffb3a496f6da0bc24c4941c8ef0"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/b514ae02d0a32ffb3a496f6da0bc24c4941c8ef0",
                 "reference": "b514ae02d0a32ffb3a496f6da0bc24c4941c8ef0",
+=======
+                "reference": "911cbac7627aa4305bd5b07a041a5e9728332dec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/911cbac7627aa4305bd5b07a041a5e9728332dec",
+                "reference": "911cbac7627aa4305bd5b07a041a5e9728332dec",
+>>>>>>> develop
                 "shasum": ""
             },
             "require": {
@@ -6640,7 +6675,11 @@
                 "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/main",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
+<<<<<<< HEAD
             "time": "2023-10-11T01:15:09+00:00"
+=======
+            "time": "2023-10-11T20:39:02+00:00"
+>>>>>>> develop
         },
         {
             "name": "sunnysideup/test-email",
@@ -6698,12 +6737,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-theme-info-only.git",
+<<<<<<< HEAD
                 "reference": "67998311378f259423e558188ca39c96b06cbb36"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/67998311378f259423e558188ca39c96b06cbb36",
                 "reference": "67998311378f259423e558188ca39c96b06cbb36",
+=======
+                "reference": "9974b4d694ed5fd9c3abf8fb149fabbab833c8e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/9974b4d694ed5fd9c3abf8fb149fabbab833c8e4",
+                "reference": "9974b4d694ed5fd9c3abf8fb149fabbab833c8e4",
+>>>>>>> develop
                 "shasum": ""
             },
             "require": {
@@ -6735,7 +6783,11 @@
                 "issues": "https://github.com/sunnysideup/silverstripe-theme-info-only/issues",
                 "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/master"
             },
+<<<<<<< HEAD
             "time": "2023-10-11T01:15:05+00:00"
+=======
+            "time": "2023-10-12T00:57:00+00:00"
+>>>>>>> develop
         },
         {
             "name": "sunnysideup/title_dataobject",
@@ -9653,16 +9705,16 @@
     "packages-dev": [
         {
             "name": "composer/pcre",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
                 "shasum": ""
             },
             "require": {
@@ -9704,7 +9756,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.0"
+                "source": "https://github.com/composer/pcre/tree/3.1.1"
             },
             "funding": [
                 {
@@ -9720,7 +9772,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-17T09:50:14+00:00"
+            "time": "2023-10-11T07:11:09+00:00"
         },
         {
             "name": "composer/semver",
@@ -11023,5 +11075,5 @@
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }
