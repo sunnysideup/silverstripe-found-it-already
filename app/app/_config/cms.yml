@@ -1,0 +1,34 @@
+---
+Name: app-cms
+---
+SilverStripe\Admin\LeftAndMain:
+  menu_groups:
+    Pages:
+      priority: 9999
+      children:
+
+    Sites:
+      priority: 1000
+      children:
+        - Sunnysideup-SiteManagement-Admin-SiteAdminProject
+        - Sunnysideup-SiteManagement-Admin-SiteAdminPasswords
+        - Sunnysideup-SiteManagement-Admin-SiteAdminLinks
+        - Sunnysideup-SiteManagement-Admin-SiteAdminPeople
+        - Sunnysideup-HealthCheck-Admin-HealthCheckAdmin
+
+    AdminOnly:
+      priority: 200
+      children:
+        - SilverStripe-CMS-Controllers-CMSPagesController
+        - Sunnysideup-SiteManagement-Admin-SiteAdminPages
+        - Sunnysideup-HealthCheck-Admin-HealthCheckAdminAdmin
+        - SilverStripe-AssetAdmin-Controller-AssetAdmin
+        - SilverStripe-Reports-ReportAdmin
+        - SilverStripe-SiteConfig-SiteConfigLeftAndMain
+
+    Advanced:
+      priority: 100
+      children:
+        - SilverStripe-CampaignAdmin-CampaignAdmin
+        - SilverStripe-VersionedAdmin-ArchiveAdmin
+        - Firesphere-CSPHeaders-Admins-SRIAdmin

@@ -14,9 +14,9 @@
     "bimthebam/silverstripe-native-color-input": "*",
     "firesphere/cspheaders": "dev-master",
     "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
+    "silverstripe/framework": "^5.0.20",
     "silverstripe/mfa": "^4 || ^5",
     "silverstripe/recipe-cms": "5.x-dev",
-    "silverstripe/framework": "^5.0.20",
     "silverstripe/totp-authenticator": "^4 || ^5",
     "silverstripe/webauthn-authenticator": "^4 || ^5",
     "sunnysideup/cms-dark-theme": "dev-main",
@@ -37,7 +37,8 @@
     "sunnysideup/theme-info-only": "dev-master",
     "sunnysideup/title_dataobject": "dev-master",
     "sunnysideup/webpack_requirements_backend": "dev-master",
-    "sunnysideup/yes-no-any-filter": "dev-master"
+    "sunnysideup/yes-no-any-filter": "dev-master",
+    "symbiote/silverstripe-grouped-cms-menu": "^4.1"
   },
   "require-dev": {
     "sunnysideup/sswebpack_engine_only": "dev-master",
@@ -53,6 +54,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:sunnysideup/silverstripe-site-management.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:sunnysideup/silverstripe-theme-info-only.git"
     },
     {
       "type": "vcs",
