@@ -10,36 +10,55 @@ When you run your composer.json, we recommend that you run: `composer install --
 
 Once set up, you will need to go into the CMS and add a `Sites Page`.
 
-# branch management
+# editing project
+
+## architecture
+
+This project contains:
+
+1. a very simple SilverStripe holder project
+
+2. some public modules (see `composer.json`)
+
+3. three private modules, also part of composer.json that are specific for this project:
+
+-   [sunnysideup/site-management](https://github.com/sunnysideup/silverstripe-site-management)
+-   [sunnysideup/health-check](https://github.com/sunnysideup/silverstripe-health-check)
+-   [sunnysideup/theme-info-only](https://github.com/sunnysideup/silverstripe-theme-info-only)
+
+To get access to any of thes projects, please email `devs@found-it-already.com`
+
+## editing the back-end code
+
+We try to follow the SilverStripe standards, where possible and practicable.
+
+## editing the front-end code
+
+The project uses webpack. Webpack is included as a stand-alone module. To start working with the front-end, use the bash scripts included in the `bin` folder. If they do not work for your setup then you can can set up your own scripts as you see fit.
+
+\_manifest_exclude
+
+-   npm-install.sh
+-   npm-watch.sh
+-   npm-build.sh
+
+## branch management
 
 There is a `develop` branch (bleeding edge) and a `production` edge (fairly stable).
 
+# running production
+
 ## cron jobs to set up:
 
-To run this project, you can set up the following cron jobs to get more details updating automatically. This is not required to use the basics of the project.
+To run this project, you can set up the following cron jobs to get more details updating automatically. None of these are strictly required, and you can set them up as you see fit.
 
 ```shell
 */5 * * * * /var/www/html/vendor/bin/sake dev/tasks/healthcheck-calculate-answers
 0   1 * * * /var/www/html/vendor/bin/sake dev/tasks/migrations
 0   3 * * * /var/www/html/vendor/bin/sake dev/tasks/add-recurrence-hours-to-projects
 0   4 * * * /var/www/html/vendor/bin/sake dev/tasks/add-error-counts-to-projects
+0   5 * * * /var/www/html/vendor/bin/sake dev/tasks/write-sites
 ```
-
-# architecture
-
-Here are the parts that make it work:
-
-1. almost vanilla SS install
-
-2. some public modules (see `composer.json`)
-
-3. a few private modules, also part of composer.json - you will need access to these:
-
--   [sunnysideup/site-management](https://github.com/sunnysideup/silverstripe-site-management)
--   [sunnysideup/health-check](https://github.com/sunnysideup/silverstripe-health-check)
--   [sunnysideup/theme-info-only](https://github.com/sunnysideup/silverstripe-theme-info-only)
-
-Please ask us for access if you do not have access.
 
 # Issues
 
