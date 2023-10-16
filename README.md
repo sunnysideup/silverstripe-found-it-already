@@ -1,6 +1,12 @@
 # Infancy
 
-Found-it-Already is under active development. We have no idea if it is going to fly. Join us now to make it fly.
+Found-it-Already is under active development. There are lots of areas that we know need improvements. We do this in three ways:
+
+1. fix bugs
+2. simplify / standardise / shorten existing code
+3. add new features.
+
+This list also shows the priority of each of these work-streams.
 
 # installation
 
@@ -28,6 +34,10 @@ This project contains:
 
 To get access to any of thes projects, please email `devs@found-it-already.com`
 
+## Making changes to the code
+
+In most cases, you will need to fork one of the modules listed below and then update the `composer.json` file to use your forked version. You can then make changes to the code and submit a pull request to the original module.
+
 ## editing the back-end code
 
 We try to follow the SilverStripe standards, where possible and practicable.
@@ -35,8 +45,7 @@ We try to follow the SilverStripe standards, where possible and practicable.
 ## editing the front-end code
 
 The project uses webpack. Webpack is included as a stand-alone module. To start working with the front-end, use the bash scripts included in the `bin` folder. If they do not work for your setup then you can can set up your own scripts as you see fit.
-
-\_manifest_exclude
+The scripts are:
 
 -   npm-install.sh
 -   npm-watch.sh
