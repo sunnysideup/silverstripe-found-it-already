@@ -1,7 +1,25 @@
+# Concept and Purpose
+
+This project is a web application that allows you to keep track of all the details of your web sites.
+Without specifically replacing any of the tools you already use.
+It should make it easier to keep track of information and to share it.
+
+For a short intro, see https://found-it-already.com
+
+We use the SilverStripe CMS as its framework;
+partly to use its awesome capabilities for rapid development,
+and partly to encourage further development of the SilverStripe CMS as
+we believe it is miles better than many of the other options out there and
+deserves a wider uptake.
+
+**Please make sure you read the LICENSE below**
+
 # Lots to do! - thank you for contributing
 
 Found-it-Already is its infancy and under active development.
-There are lots of areas that we know need improvements. We do this in three ways:
+There are lots of areas that we know need improvements.
+
+We do this in three ways:
 
 1. fix bugs
 2. simplify / standardise / shorten / document existing code
@@ -9,7 +27,7 @@ There are lots of areas that we know need improvements. We do this in three ways
 
 Mostly in this order.
 
-# installation
+# Installation
 
 Please install like any other SilverStripe web project. See `https://docs.silverstripe.org/en/5`.
 
@@ -18,21 +36,7 @@ so that you can edit and commit to various repositories (if you have write acces
 
 Once set up, you will need to go into the CMS and add a `Sites Page`.
 
-# concept and purpose
-
-This project is a web application that allows you to keep track of all the details of your web sites.
-Without specifically replacing any of the tools you already use.
-It should make it easier to keep track of information and to share it.
-
-For a short intro, see https://found-it-already.com
-
-It would be useful to add that we use the SilverStripe CMS as part of this setup,
-partly to use its awesome capabilities for rapid development,
-and partly to encourage further development of the SilverStripe CMS.
-
-# editing the project
-
-## architecture
+# Architecture
 
 This project contains:
 
@@ -48,7 +52,9 @@ This project contains:
 
 To get access to any of these projects, please email `yes@found-it-already.com`.
 
-## Making changes to the code
+# Editing the code
+
+We encourage you to make your own customisations of the code and share these with us.
 
 There are two ways to do this:
 
@@ -59,11 +65,11 @@ There are two ways to do this:
 2. You could make changes to the original module (if you have write access).
    If you like to change the original module then please do so in a branch and make a pull request once done.
 
-## editing the back-end code
+## Editing the back-end code
 
 We try to follow the SilverStripe PHP standards, concepts and approaches, where possible and practicable.
 
-## editing the front-end code
+## Editing the front-end code
 
 The project uses a Symphony flavour of WebPack. It is included as a stand-alone module.
 To start working with the front-end you can use the bash scripts included in the `bin` folder.
@@ -74,34 +80,55 @@ The scripts are:
 -   npm-watch.sh
 -   npm-build.sh
 
-### node and npm versions required
+### Node and Npm versions required
 
-We try to stay with the latest version of `node` and `npm`. If required, we will lock them down.
+We try to stay up-to-date with the latest version of `node` and `npm`.
+If required, we will lock them down.
 We recommend using an application called `nvm` to manage npm / node versions.
-At the time of typing up this message, we are using the **npm version 10** and **node versions 20** (node v20.6.1 / npm v10.1.0).
+At the time of typing up this message, we are using the **npm version 10** and **node versions 20**
+(node v20.6.1 / npm v10.1.0).
 
-## branch management
+## Branch management
 
 There is a `develop` branch (bleeding edge) and a `production` branch (more stable).
 
-Any fixes should be branched of `develop` and then merged back into `develop` after you have
+Any fixes should be branched of `develop` and then merged back into `develop`, but only after you have
 updated the feature branch with the latest changes from `develop`.
 
-All pull requests to be peer-reviewed.
+All pull requests will be peer-reviewed.
 
 Whenever required and feasible, we merge `develop` into `production`.
 
-## agile
+## Agile
 
 We try to be as agile as possible, making small releases, as regularly as possible.
 As the application matures, and hopefully more people use it,
-we will try to do this more carefully, with more testing, etc...
+we will try to do this more, and more cautiously, with more testing, etc...
 
-# running production
+# Other ways to contribute - just as important!
 
-## cron jobs to set up:
+We welcome contributions, from anyone, of any kind.
 
-To run this project, you can set up the following cron jobs to get more details updating automatically.
+This could be code changes, but also designs, UX recommendations, translations, etc...
+
+Contact `yes@found-it-already.com` to get more details.
+
+## Check-in with us first.
+
+Ultimately, we would like to keep some editorial control
+so we recommend that, before you start, you have a quick chat with us.
+It pays to do so also, because we do not want you to end up doing something
+that is already being done by someone else or something that requires some discussion.
+
+# Issues
+
+Please log here: https://github.com/sunnysideup/silverstripe-found-it-already/issues
+
+# Running production
+
+## Cron jobs to set up:
+
+There are a number of tasks that can be run as `cron jobs`.
 None of these are strictly required, and you can set them up as you see fit.
 
 ```shell
@@ -114,57 +141,24 @@ None of these are strictly required, and you can set them up as you see fit.
 
 In the future we will try to bring this all together in one cron job.
 
-# Issues
-
-Please log here: https://github.com/sunnysideup/silverstripe-found-it-already/issues
-
-# how to contribute
-
-We welcome contributions from anyone of any kind.
-
-This could be code changes, but also designs, UX recommendations, translations, etc...
-
-Ultimately, we would like to keep some editorial control so we recommend that,
-before you start, you have a quick chat with us
-so you do not end up doing something that is already being done by someone else or
-something that requires some discussion.
-
-## developers
-
-Contact `yes@found-it-already.com` to get more details.
-
-## testers
-
-Contact `yes@found-it-already.com` to get more details.
-
-## designers
-
-Contact `yes@found-it-already.com` to get more details.
-
-## translators
-
-Contact `yes@found-it-already.com` to get more details.
-
-# Our approach
-
-Thank you for your interest in found-it-already.com. Before you start using the code, we would like you to read and agree to our terms and conditions.
-
-## we like you to make money
-
-We would like to cooperate with you in making it better. You can use it commercially and sell services around the software as you see fit, apart from offering a competing SaaS service to found-it-already.com. Please read the below license agreement and make sure you ask questions if you are not sure.
-
-## how to make income from found-it-already.com
+# How to generate an income from found-it-already.com
 
 If you would like to generate income from found-it-already.com you could consider:
 
--   use it in your own business to increase efficiency.
--   charging your clients for access to a system where they can find all the details of their own site in one place
--   you can services (e.g. building api connections) to anyone wanting to use the software.
--   if you like to be part of our SaaS offering then please get in touch. Contact yes `@found-it-already.com` to get more details.
+-   to use it in your own business to increase efficiency.
 
-## synergy is key
+-   charging your clients for access to a system where
+    they can find all the details of their own site in one place
 
-It is really key for us to work together and make this a better piece of software for everyone who is using it. If you like using it then work with us to make it better.
+-   you can sell your services (e.g. building api connections) to anyone wanting to use the software.
+
+-   if you like to be part of our SaaS offering then please get in touch.
+    Contact yes `@found-it-already.com` to get more details.
+
+## community spirit - synergy is key
+
+It is key for us to work together and make this a better piece of software for everyone who is using it.
+If you like using it then work with us to make it better.
 
 # License
 
