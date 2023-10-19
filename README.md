@@ -7,24 +7,28 @@ There are lots of areas that we know need improvements. We do this in three ways
 2. simplify / standardise / shorten / document existing code
 3. add new features.
 
-This list also shows the priority of each of these work-streams.
+Mostly in this order.
 
 # installation
 
 Please install like any other SilverStripe web project. See `https://docs.silverstripe.org/en/5`.
 
-When you run your `composer`, we recommend that you run `composer install --prefer-source`
-so that you can edit and commit to various repositories (once you have gotten write access - see below which ones).
+When you run `composer`, we recommend that you run `composer install --prefer-source`
+so that you can edit and commit to various repositories (if you have write access to them - see below for more details).
 
 Once set up, you will need to go into the CMS and add a `Sites Page`.
 
-# concept
+# concept and purpose
 
-see https://found-it-already.com
+This project is a web application that allows you to keep track of all the details of your web sites.
+Without specifically replacing any of the tools you already use.
+It should make it easier to keep track of information and to share it.
+
+For a short intro, see https://found-it-already.com
 
 It would be useful to add that we use the SilverStripe CMS as part of this setup,
 partly to use its awesome capabilities for rapid development,
-and partly to encourage further development of the SilverStripe CMS to become even better.
+and partly to encourage further development of the SilverStripe CMS.
 
 # editing the project
 
@@ -36,31 +40,32 @@ This project contains:
 
 2. some public modules (see `composer.json`)
 
-3. three private modules, also part of composer.json, that are specific to this project:
+3. three private modules, also listed in `composer.json` specific to this project:
 
 -   [sunnysideup/site-management](https://github.com/sunnysideup/silverstripe-site-management)
 -   [sunnysideup/health-check](https://github.com/sunnysideup/silverstripe-health-check)
 -   [sunnysideup/theme-info-only](https://github.com/sunnysideup/silverstripe-theme-info-only)
 
-To get access to any of thes projects, please email `devs@found-it-already.com`.
+To get access to any of these projects, please email `yes@found-it-already.com`.
 
 ## Making changes to the code
 
 There are two ways to do this:
 
 1. You could fork the module you want to change and then update the `composer.json` file to use your forked version.
-   You can then make changes to the forked code and submit a pull request to the original module.
+   You can then make changes to the forked code
+   Once done, you can then submit a pull request to the original module.
 
-2. You could also make changes to the original module (if you have access rights).
-   If you like to change the original module then please do so in a branch and make a pull request.
+2. You could make changes to the original module (if you have write access).
+   If you like to change the original module then please do so in a branch and make a pull request once done.
 
 ## editing the back-end code
 
-We try to follow the SilverStripe standards, where possible and practicable.
+We try to follow the SilverStripe PHP standards, concepts and approaches, where possible and practicable.
 
 ## editing the front-end code
 
-The project uses webpack. Webpack is included as a stand-alone module.
+The project uses a Symphony flavour of WebPack. It is included as a stand-alone module.
 To start working with the front-end you can use the bash scripts included in the `bin` folder.
 If they do not work for your setup then you can can set up your own scripts as you see fit.
 The scripts are:
@@ -71,23 +76,33 @@ The scripts are:
 
 ### node and npm versions required
 
-We try to stay with the latest version of node and npm. If required, we will lock them down.
-We use an application called `nvm` to manage npm / node versions.
+We try to stay with the latest version of `node` and `npm`. If required, we will lock them down.
+We recommend using an application called `nvm` to manage npm / node versions.
 At the time of typing up this message, we are using the **npm version 10** and **node versions 20** (node v20.6.1 / npm v10.1.0).
 
 ## branch management
 
 There is a `develop` branch (bleeding edge) and a `production` branch (more stable).
 
+Any fixes should be branched of `develop` and then merged back into `develop` after you have
+updated the feature branch with the latest changes from `develop`.
+
+All pull requests to be peer-reviewed.
+
+Whenever required and feasible, we merge `develop` into `production`.
+
 ## agile
 
 We try to be as agile as possible, making small releases, as regularly as possible.
+As the application matures, and hopefully more people use it,
+we will try to do this more carefully, with more testing, etc...
 
 # running production
 
 ## cron jobs to set up:
 
-To run this project, you can set up the following cron jobs to get more details updating automatically. None of these are strictly required, and you can set them up as you see fit.
+To run this project, you can set up the following cron jobs to get more details updating automatically.
+None of these are strictly required, and you can set them up as you see fit.
 
 ```shell
 */5 * * * * /var/www/html/vendor/bin/sake dev/tasks/healthcheck-calculate-answers
@@ -105,28 +120,30 @@ Please log here: https://github.com/sunnysideup/silverstripe-found-it-already/is
 
 # how to contribute
 
-We welcome contributions from anyone of any kind. This could be code changes, but also designs, UX recommendations, translations, etc... Ultimately, we would like to keep some editorial control so we recommend that before you start, you have a quick chat with us so you do not end up doing something that is already being done by someone else OR something like that.
+We welcome contributions from anyone of any kind.
+
+This could be code changes, but also designs, UX recommendations, translations, etc...
+
+Ultimately, we would like to keep some editorial control so we recommend that,
+before you start, you have a quick chat with us
+so you do not end up doing something that is already being done by someone else or
+something that requires some discussion.
 
 ## developers
 
-1. request access to the private repos referenced in the root `composer.json` file
-2. install this project like you would install any SilverStripe project - see `https://docs.silverstripe.org/en/5`
-3. fork any of the modules you would like to change and contact us if you need help in any way or if you would like to discuss your plans.
-4. update the root `composer.json` file to use your fork(s). You may also need to change any vendor modules that refers to the original module (TBC).
-5. once you are happy with the results, create a pull request from your forked module into the original module.
-6. after another developer reviews your changes, they will then be merged (unless they are unsuitable, require changes to be accepted).
+Contact `yes@found-it-already.com` to get more details.
 
 ## testers
 
-Contact yes `@found-it-already.com` to get more details.
+Contact `yes@found-it-already.com` to get more details.
 
 ## designers
 
-Contact yes `@found-it-already.com` to get more details.
+Contact `yes@found-it-already.com` to get more details.
 
 ## translators
 
-Contact yes `@found-it-already.com` to get more details.
+Contact `yes@found-it-already.com` to get more details.
 
 # Our approach
 
@@ -161,10 +178,6 @@ He whakaaetanga tēnei (This permission notice):
 
 2. You must retain this Found-it-Already License (including this permission notice) in all copies or substantial portions of the software.
 
-3. You may not use this software or any derivative works in a Software as a Service (SaaS) application or platform. Similar in intent to the website found-it-already.com.
+3. You may not use this software or any derivative works in a Software as a Service (SaaS) application or platform, in any way that is similar in intent to the website found-it-already.com.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-# climate action now
-
-We support strong climate action as this will reduce our pains in the future.
