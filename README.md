@@ -1,6 +1,7 @@
-# Infancy takes patience - thank you for contributing
+# Lots to do! - thank you for contributing
 
-Found-it-Already is under active development. There are lots of areas that we know need improvements. We do this in three ways:
+Found-it-Already is its infancy and under active development.
+There are lots of areas that we know need improvements. We do this in three ways:
 
 1. fix bugs
 2. simplify / standardise / shorten / document existing code
@@ -12,8 +13,8 @@ This list also shows the priority of each of these work-streams.
 
 Please install like any other SilverStripe web project. See `https://docs.silverstripe.org/en/5`.
 
-When you run your composer.json, we recommend that you run: `composer install --prefer-source` 
-so that you can edit various repositories (see below which ones).
+When you run your `composer`, we recommend that you run `composer install --prefer-source`
+so that you can edit and commit to various repositories (once you have gotten write access - see below which ones).
 
 Once set up, you will need to go into the CMS and add a `Sites Page`.
 
@@ -21,8 +22,8 @@ Once set up, you will need to go into the CMS and add a `Sites Page`.
 
 see https://found-it-already.com
 
-It would be useful to add that we use the SilverStripe CMS as part of this setup, 
-partly to use its awesome capabilities for rapid development, 
+It would be useful to add that we use the SilverStripe CMS as part of this setup,
+partly to use its awesome capabilities for rapid development,
 and partly to encourage further development of the SilverStripe CMS to become even better.
 
 # editing the project
@@ -47,11 +48,11 @@ To get access to any of thes projects, please email `devs@found-it-already.com`.
 
 There are two ways to do this:
 
-1. You could fork the module you want to change and then update the `composer.json` file to use your forked version. 
-You can then make changes to the forked code and submit a pull request to the original module. 
+1. You could fork the module you want to change and then update the `composer.json` file to use your forked version.
+   You can then make changes to the forked code and submit a pull request to the original module.
 
-2. You could also make changes to the original module (if you have access rights). 
-If you like to change the original module then please do so in a branch and make a pull request.
+2. You could also make changes to the original module (if you have access rights).
+   If you like to change the original module then please do so in a branch and make a pull request.
 
 ## editing the back-end code
 
@@ -59,8 +60,8 @@ We try to follow the SilverStripe standards, where possible and practicable.
 
 ## editing the front-end code
 
-The project uses webpack. Webpack is included as a stand-alone module. 
-To start working with the front-end you can use the bash scripts included in the `bin` folder. 
+The project uses webpack. Webpack is included as a stand-alone module.
+To start working with the front-end you can use the bash scripts included in the `bin` folder.
 If they do not work for your setup then you can can set up your own scripts as you see fit.
 The scripts are:
 
@@ -70,8 +71,8 @@ The scripts are:
 
 ### node and npm versions required
 
-We try to stay with the latest version of node and npm. If required, we will lock them down. 
-We use an application called `nvm` to manage npm / node versions. 
+We try to stay with the latest version of node and npm. If required, we will lock them down.
+We use an application called `nvm` to manage npm / node versions.
 At the time of typing up this message, we are using the **npm version 10** and **node versions 20** (node v20.6.1 / npm v10.1.0).
 
 ## branch management
@@ -80,8 +81,7 @@ There is a `develop` branch (bleeding edge) and a `production` branch (more stab
 
 ## agile
 
-We try to be as agile as possible, making small releases, as regularly as possible. 
-
+We try to be as agile as possible, making small releases, as regularly as possible.
 
 # running production
 
@@ -167,4 +167,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # climate action now
 
-We support strong climate action as this will reduce our pains in the future. 
+We support strong climate action as this will reduce our pains in the future.

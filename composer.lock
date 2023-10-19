@@ -6329,12 +6329,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-release.git",
-                "reference": "c1742a015fe445c35ea6a5bb38594de50afe41f2"
+                "reference": "23d9f89e61de935f1215893ade20ffc3e7da177c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-release/zipball/c1742a015fe445c35ea6a5bb38594de50afe41f2",
-                "reference": "c1742a015fe445c35ea6a5bb38594de50afe41f2",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-release/zipball/23d9f89e61de935f1215893ade20ffc3e7da177c",
+                "reference": "23d9f89e61de935f1215893ade20ffc3e7da177c",
                 "shasum": ""
             },
             "require": {
@@ -6370,9 +6370,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sunnysideup/silverstripe-release/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-release/tree/master"
+                "source": "https://github.com/sunnysideup/silverstripe-release/tree/1.0.6"
             },
-            "time": "2023-09-14T23:48:49+00:00"
+            "time": "2023-10-19T06:11:26+00:00"
         },
         {
             "name": "sunnysideup/selected-colour-picker",
@@ -6600,12 +6600,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
-                "reference": "3c4e84fe777602a6554569b1be753e8da1815af7"
+                "reference": "18104feaf9e990f650ad44f893de3f1dfb57c607"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/3c4e84fe777602a6554569b1be753e8da1815af7",
-                "reference": "3c4e84fe777602a6554569b1be753e8da1815af7",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/18104feaf9e990f650ad44f893de3f1dfb57c607",
+                "reference": "18104feaf9e990f650ad44f893de3f1dfb57c607",
                 "shasum": ""
             },
             "require": {
@@ -6648,7 +6648,7 @@
                 "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/main",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
-            "time": "2023-10-19T02:03:29+00:00"
+            "time": "2023-10-19T05:59:28+00:00"
         },
         {
             "name": "sunnysideup/test-email",
