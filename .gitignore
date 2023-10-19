@@ -1,5 +1,7 @@
 # demo datbase
 ./ssbak-tmp-dir
+./release.log
+./.vscode
 
 release.log
 ssbak-tmp-dir/
