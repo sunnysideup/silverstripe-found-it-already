@@ -14,6 +14,13 @@ deserves a wider uptake.
 
 **Please make sure you read the LICENSE below**
 
+# Known issues
+
+When you run a `dev/build` the first time, it hangs. If it you run it again, it runs fine. 
+
+In the CMS, the dropdowns with lookup (using chosen) do not allow you to chose an option using the search.
+You actually have to scroll to the item.
+
 # Lots to do! - thank you for contributing
 
 Found-it-Already is its infancy and under active development.
