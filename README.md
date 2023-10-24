@@ -1,6 +1,6 @@
 # Concept and Purpose
 
-This project is a web application that allows you to keep track of all the details of your web sites.
+This project is a web application that allows you to keep track of all the details of your websites.
 Without specifically replacing any of the tools you already use.
 It should make it easier to keep track of information and to share it.
 
@@ -16,14 +16,14 @@ deserves a wider uptake.
 
 # Known issues
 
-When you run a `dev/build` the first time, it hangs. If it you run it again, it runs fine. 
+When you run a `dev/build` the first time, it hangs. If you run it again, it runs fine. 
 
-In the CMS, the dropdowns with lookup (using chosen) do not allow you to chose an option using the search.
+In the CMS, the dropdowns with lookup (using chosen) do not allow you to choose an option using the search.
 You actually have to scroll to the item.
 
 # Lots to do! - thank you for contributing
 
-Found-it-Already is its infancy and under active development.
+Found-it-Already is in its infancy and under active development.
 There are lots of areas that we know need improvements.
 
 We do this in three ways:
@@ -74,13 +74,13 @@ There are two ways to do this:
 
 ## Editing the back-end code
 
-We try to follow the SilverStripe PHP standards, concepts and approaches, where possible and practicable.
+We try to follow the SilverStripe PHP standards, concepts, and approaches, where possible and practicable.
 
 ## Editing the front-end code
 
 The project uses a Symphony flavour of WebPack. It is included as a stand-alone module.
 To start working with the front-end you can use the bash scripts included in the `bin` folder.
-If they do not work for your setup then you can can set up your own scripts as you see fit.
+If they do not work for your setup then you can set up your own scripts as you see fit.
 The scripts are:
 
 -   npm-install.sh
@@ -99,7 +99,7 @@ At the time of typing up this message, we are using the **npm version 10** and *
 
 There is a `develop` branch (bleeding edge) and a `production` branch (more stable).
 
-Any fixes should be branched of `develop` and then merged back into `develop`, but only after you have
+Any fixes should be branched off `develop` and then merged back into `develop`, but only after you have
 updated the feature branch with the latest changes from `develop`.
 
 All pull requests will be peer-reviewed.
@@ -124,7 +124,7 @@ Contact `yes@found-it-already.com` to get more details.
 
 Ultimately, we would like to keep some editorial control
 so we recommend that, before you start, you have a quick chat with us.
-It pays to do so also, because we do not want you to end up doing something
+It pays to do so also because we do not want you to end up doing something
 that is already being done by someone else or something that requires some discussion.
 
 # Issues
@@ -146,7 +146,7 @@ None of these are strictly required, and you can set them up as you see fit.
 0   5 * * * /var/www/html/vendor/bin/sake dev/tasks/write-sites
 ```
 
-In the future we will try to bring this all together in one cron job.
+In the future, we will try to bring this all together in one cron job.
 
 # How to generate an income from found-it-already.com
 
