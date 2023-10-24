@@ -16,10 +16,11 @@ deserves a wider uptake.
 
 # Known issues
 
-When you run a `dev/build` the first time, it hangs. If you run it again, it runs fine. 
-
 In the CMS, the dropdowns with lookup (using chosen) do not allow you to choose an option using the search.
 You actually have to scroll to the item.
+
+When you run a `dev/build`, you must run
+`vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask` afterwards.
 
 # Lots to do! - thank you for contributing
 

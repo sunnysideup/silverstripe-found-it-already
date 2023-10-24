@@ -6549,12 +6549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-simple-template-caching.git",
-                "reference": "6d5ebc8d8afb1b4c555ae8b309533751b1345b6a"
+                "reference": "ec4f2eb313e49420d18dacd4790c68b3854bca23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-simple-template-caching/zipball/6d5ebc8d8afb1b4c555ae8b309533751b1345b6a",
-                "reference": "6d5ebc8d8afb1b4c555ae8b309533751b1345b6a",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-simple-template-caching/zipball/ec4f2eb313e49420d18dacd4790c68b3854bca23",
+                "reference": "ec4f2eb313e49420d18dacd4790c68b3854bca23",
                 "shasum": ""
             },
             "require": {
@@ -6590,9 +6590,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sunnysideup/silverstripe-simple-template-caching/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-simple-template-caching/tree/master"
+                "source": "https://github.com/sunnysideup/silverstripe-simple-template-caching/tree/8.2.1"
             },
-            "time": "2023-09-15T00:00:00+00:00"
+            "time": "2023-10-24T05:33:05+00:00"
         },
         {
             "name": "sunnysideup/site-management",
