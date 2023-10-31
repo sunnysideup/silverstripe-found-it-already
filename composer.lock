@@ -5106,16 +5106,16 @@
         },
         {
             "name": "silverstripe/vendor-plugin",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/vendor-plugin.git",
-                "reference": "0acac2f7102cdd1c83ea4a686d7e36e35781c9fa"
+                "reference": "1ce60392d043b1141aaa74e3a3bfc228c1d39e19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/0acac2f7102cdd1c83ea4a686d7e36e35781c9fa",
-                "reference": "0acac2f7102cdd1c83ea4a686d7e36e35781c9fa",
+                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/1ce60392d043b1141aaa74e3a3bfc228c1d39e19",
+                "reference": "1ce60392d043b1141aaa74e3a3bfc228c1d39e19",
                 "shasum": ""
             },
             "require": {
@@ -5151,9 +5151,9 @@
             "description": "Allows vendor modules to expose directories to the webroot",
             "support": {
                 "issues": "https://github.com/silverstripe/vendor-plugin/issues",
-                "source": "https://github.com/silverstripe/vendor-plugin/tree/2.0.1"
+                "source": "https://github.com/silverstripe/vendor-plugin/tree/2.0.2"
             },
-            "time": "2023-08-29T05:12:12+00:00"
+            "time": "2023-10-30T21:10:05+00:00"
         },
         {
             "name": "silverstripe/versioned",
@@ -6640,7 +6640,7 @@
             ],
             "description": "manage site - high level overview",
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/main",
+                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/1.2.5",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
             "time": "2023-10-30T20:45:53+00:00"
@@ -6701,12 +6701,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-theme-info-only.git",
-                "reference": "07acf0239ee4ec6ae7777d850e23b85857fa40b6"
+                "reference": "00f631d3cdf54740df0d44f6874553bf5af1bc4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/07acf0239ee4ec6ae7777d850e23b85857fa40b6",
-                "reference": "07acf0239ee4ec6ae7777d850e23b85857fa40b6",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/00f631d3cdf54740df0d44f6874553bf5af1bc4d",
+                "reference": "00f631d3cdf54740df0d44f6874553bf5af1bc4d",
                 "shasum": ""
             },
             "require": {
@@ -6734,10 +6734,10 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/master",
+                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/1.0.0",
                 "issues": "https://github.com/sunnysideup/silverstripe-theme-info-only/issues"
             },
-            "time": "2023-10-30T20:45:46+00:00"
+            "time": "2023-10-30T21:25:15+00:00"
         },
         {
             "name": "sunnysideup/title_dataobject",
