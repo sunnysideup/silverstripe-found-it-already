@@ -12,7 +12,6 @@
   "require": {
     "php": ">=8.1",
     "bimthebam/silverstripe-native-color-input": "*",
-    "firesphere/cspheaders": "dev-master",
     "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
     "silverstripe/framework": "^5.0.20",
     "silverstripe/mfa": "^4 || ^5",
@@ -109,5 +108,13 @@
       "composer/installers": true
     }
   },
-  "conflict": {}
+  "conflict": {},
+  "scripts": {
+    "post-install-cmd": [
+      "vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask"
+    ],
+    "post-update-cmd": [
+      "vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask"
+    ]
+  }
 }
