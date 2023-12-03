@@ -13,10 +13,11 @@
     "php": ">=8.1",
     "bimthebam/silverstripe-native-color-input": "*",
     "silverstripe/framework": "^5.0.20",
-    "silverstripe/mfa": "^4 || ^5",
+    "silverstripe/mfa": " ^5",
     "silverstripe/recipe-cms": "5.x-dev",
-    "silverstripe/totp-authenticator": "^4 || ^5",
-    "silverstripe/webauthn-authenticator": "^4 || ^5",
+    "silverstripe/tagfield": "3.0",
+    "silverstripe/totp-authenticator": "^5",
+    "silverstripe/webauthn-authenticator": "^5",
     "sunnysideup/cms-dark-theme": "dev-main",
     "sunnysideup/default-predict": "dev-main",
     "sunnysideup/email_address_database_field": "dev-master",
@@ -37,10 +38,10 @@
     "sunnysideup/title_dataobject": "dev-master",
     "sunnysideup/webpack_requirements_backend": "dev-master",
     "sunnysideup/yes-no-any-filter": "dev-master",
-    "symbiote/silverstripe-grouped-cms-menu": "^4.1"
+    "symbiote/silverstripe-grouped-cms-menu": "^4.1",
+    "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master"
   },
   "require-dev": {
-    "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
     "sunnysideup/sswebpack_engine_only": "dev-master",
     "sunnysideup/templateoverview": "dev-master",
     "silverleague/ideannotator": "*",
