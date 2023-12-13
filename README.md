@@ -144,4 +144,42 @@ None of these are strictly required, and you can set them up as you see fit.
 0   1 * * * /var/www/html/vendor/bin/sake dev/tasks/migrations
 0   3 * * * /var/www/html/vendor/bin/sake dev/tasks/add-recurrence-hours-to-projects
 0   4 * * * /var/www/html/vendor/bin/sake dev/tasks/add-error-counts-to-projects
+0   5 * * * /var/www/html/vendor/bin/sake dev/tasks/write-sites
 ```
+
+In the future we will try to bring this all together in one cron job.
+
+# How to generate an income from found-it-already.com
+
+If you would like to generate income from found-it-already.com you could consider:
+
+-   to use it in your own business to increase efficiency.
+
+-   charging your clients for access to a system where
+    they can find all the details of their own site in one place
+
+-   you can sell your services (e.g. building api connections) to anyone wanting to use the software.
+
+-   if you like to be part of our SaaS offering then please get in touch.
+    Contact yes `@found-it-already.com` to get more details.
+
+## community spirit - synergy is key
+
+It is key for us to work together and make this a better piece of software for everyone who is using it.
+If you like using it then work with us to make it better.
+
+# License
+
+Found-it-Already License (Custom MIT-Based License)
+
+Copyright (c) 2023 Sunny Side Up ltd.
+
+He whakaaetanga tēnei (This permission notice):
+
+1. You are granted the right to use, copy, modify, merge, publish, and distribute this software in any medium, subject to the following conditions:
+
+2. You must retain this Found-it-Already License (including this permission notice) in all copies or substantial portions of the software.
+
+3. You may not use this software or any derivative works in a Software as a Service (SaaS) application or platform, in any way that is similar in intent to the website found-it-already.com.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
