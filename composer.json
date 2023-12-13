@@ -12,18 +12,19 @@
   "require": {
     "php": ">=8.1",
     "bimthebam/silverstripe-native-color-input": "*",
-    "firesphere/cspheaders": "dev-master",
     "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
-    "silverstripe/mfa": "^4 || ^5",
-    "silverstripe/recipe-cms": "5.x-dev",
     "silverstripe/framework": "^5.0.20",
-    "silverstripe/totp-authenticator": "^4 || ^5",
-    "silverstripe/webauthn-authenticator": "^4 || ^5",
+    "silverstripe/mfa": " ^5",
+    "silverstripe/recipe-cms": "5.x-dev",
+    "silverstripe/tagfield": "3.0",
+    "silverstripe/totp-authenticator": "^5",
+    "silverstripe/webauthn-authenticator": "^5",
     "sunnysideup/cms-dark-theme": "dev-main",
     "sunnysideup/default-predict": "dev-main",
     "sunnysideup/email_address_database_field": "dev-master",
     "sunnysideup/export-all-from-modeladmin": "dev-master",
     "sunnysideup/flush-front-end": "dev-master",
+    "sunnysideup/hasoneedit": "dev-master",
     "sunnysideup/health-check": "dev-master",
     "sunnysideup/metatags": "dev-master",
     "sunnysideup/permission_provider": "dev-master",
@@ -34,10 +35,12 @@
     "sunnysideup/silverstripe-externalurlfield": "dev-master",
     "sunnysideup/simple-template-caching": "dev-master",
     "sunnysideup/site-management": "dev-main",
+    "sunnysideup/site-wide-search": "dev-master",
     "sunnysideup/theme-info-only": "dev-master",
     "sunnysideup/title_dataobject": "dev-master",
     "sunnysideup/webpack_requirements_backend": "dev-master",
-    "sunnysideup/yes-no-any-filter": "dev-master"
+    "sunnysideup/yes-no-any-filter": "dev-master",
+    "symbiote/silverstripe-grouped-cms-menu": "^4.1"
   },
   "require-dev": {
     "sunnysideup/sswebpack_engine_only": "dev-master",
@@ -56,7 +59,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:sunnysideup/hasoneedit.git"
+      "url": "git@github.com:sunnysideup/silverstripe-theme-info-only.git"
     },
     {
       "type": "vcs",
@@ -107,5 +110,13 @@
       "composer/installers": true
     }
   },
-  "conflict": {}
+  "conflict": {},
+  "scripts": {
+    "post-install-cmd": [
+      "vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask"
+    ],
+    "post-update-cmd": [
+      "vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask"
+    ]
+  }
 }

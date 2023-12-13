@@ -36,6 +36,9 @@ Require all denied
 ErrorDocument 404 /assets/error-404.html
 ErrorDocument 500 /assets/error-500.html
 
+# see https://www.serpworx.com/check-security-headers
+
+
 <IfModule mod_rewrite.c>
 
     # Turn off index.php handling requests to the homepage fixes issue in apache >=2.4

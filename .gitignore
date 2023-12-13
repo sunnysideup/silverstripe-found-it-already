@@ -1,5 +1,6 @@
-# demo datbase
 ./ssbak-tmp-dir
+./release.log
+./.vscode
 
 release.log
 ssbak-tmp-dir/
@@ -21,8 +22,9 @@ fia-demo.sspak
 
 public/_graphql/
 
+/tmp/
 
-
+/public/assets.old/
 /themes/sun
 /silverstripe-cache
 /vendor
