@@ -64,6 +64,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:sunnysideup/silverstripe-cms-userswitcher.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://codeberg.org/S-GrabhamMadden/silverstripe-csp-headers.git"
     }
   ],
   "minimum-stability": "dev",
