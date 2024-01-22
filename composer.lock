@@ -6702,12 +6702,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
-                "reference": "5069fcb8a31962530e9dd932cd88476c6fb35a66"
+                "reference": "4e1390d4eb243f2e648bb812d537a29edec3b721"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/5069fcb8a31962530e9dd932cd88476c6fb35a66",
-                "reference": "5069fcb8a31962530e9dd932cd88476c6fb35a66",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/4e1390d4eb243f2e648bb812d537a29edec3b721",
+                "reference": "4e1390d4eb243f2e648bb812d537a29edec3b721",
                 "shasum": ""
             },
             "require": {
@@ -6747,10 +6747,10 @@
             ],
             "description": "manage site - high level overview",
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.2.0",
+                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.3.0",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
-            "time": "2024-01-22T19:23:34+00:00"
+            "time": "2024-01-22T20:56:52+00:00"
         },
         {
             "name": "sunnysideup/site-wide-search",
@@ -6865,12 +6865,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-theme-info-only.git",
-                "reference": "2141653e8754c1909d992806b295a43325af0552"
+                "reference": "88ed80f85d575387f654304580a37160e6205ae5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/2141653e8754c1909d992806b295a43325af0552",
-                "reference": "2141653e8754c1909d992806b295a43325af0552",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/88ed80f85d575387f654304580a37160e6205ae5",
+                "reference": "88ed80f85d575387f654304580a37160e6205ae5",
                 "shasum": ""
             },
             "require": {
@@ -6898,10 +6898,10 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/1.10.8",
+                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/1.10.9",
                 "issues": "https://github.com/sunnysideup/silverstripe-theme-info-only/issues"
             },
-            "time": "2024-01-22T19:18:14+00:00"
+            "time": "2024-01-22T20:33:36+00:00"
         },
         {
             "name": "sunnysideup/title_dataobject",
@@ -11184,5 +11184,5 @@
         "php": ">=8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
