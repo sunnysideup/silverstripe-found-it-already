@@ -7,29 +7,11 @@ Only:
 #   source_file_comments: true
 SilverLeague\IDEAnnotator\DataObjectAnnotator:
   enabled: true
-  use_short_name: true
+  use_short_name: false
   enabled_modules:
     - app
     - sunnysideup/health-check
     - sunnysideup/site-management
-    - sunnysideup/cms-niceties
-    - sunnysideup/cms-dark-theme
-    - sunnysideup/default-predict
-    - sunnysideup/email_address_database_field
-    - sunnysideup/error-log-made-easy
-    - sunnysideup/health-check
-    - sunnysideup/metatags
-    - sunnysideup/password-saver
-    - sunnysideup/permission_provider
-    - sunnysideup/phone_field
-    - sunnysideup/sentry-made-easy
-    - sunnysideup/silverstripe-externalurlfield
-    - sunnysideup/simple-template-caching
-    - sunnysideup/site-management
-    - sunnysideup/test-email
-    - sunnysideup/title_dataobject
-    - sunnysideup/uuid
-    - sunnysideup/webpack_requirements_backend
 
 LeKoala\DebugBar\DebugBar:
   enable_storage: true

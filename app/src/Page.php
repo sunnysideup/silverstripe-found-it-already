@@ -9,8 +9,9 @@ use SilverStripe\CMS\Model\SiteTree;
  * @property bool $PublicCacheDurationInSeconds
  * @property bool $AllowCSSInline
  * @property bool $AllowJSInline
- * @method ManyManyList|CSPDomain[] CSPDomains()
- * @mixin PageExtension
+ * @method \SilverStripe\ORM\ManyManyList|\Firesphere\CSPHeaders\Models\CSPDomain[] CSPDomains()
+ * @mixin \Firesphere\CSPHeaders\Extensions\PageExtension
+ * @mixin \Sunnysideup\SimpleTemplateCaching\Extensions\PageExtension
  */
 class Page extends SiteTree
 {
