@@ -8,6 +8,7 @@ SilverStripe\Admin\LeftAndMain:
       children:
         - Sunnysideup-SiteManagement-Admin-SiteAdmin
         - Sunnysideup-SiteManagement-Admin-SiteAdminProject
+        - Sunnysideup-SiteManagement-Admin-SiteAdminMonitoring
         - Sunnysideup-SiteManagement-Admin-SiteAdminPasswords
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinks
         - Sunnysideup-SiteManagement-Admin-SiteAdminPeople
