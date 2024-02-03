@@ -6,7 +6,7 @@ use SilverStripe\CMS\Model\SiteTree;
  * Class \Page
  *
  * @property bool $NeverCachePublicly
- * @property bool $PublicCacheDurationInSeconds
+ * @property int $PublicCacheDurationInSeconds
  * @property bool $AllowCSSInline
  * @property bool $AllowJSInline
  * @method \SilverStripe\ORM\ManyManyList|\Firesphere\CSPHeaders\Models\CSPDomain[] CSPDomains()
