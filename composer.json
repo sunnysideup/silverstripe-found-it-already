@@ -20,6 +20,7 @@
     "silverstripe/totp-authenticator": "^5",
     "silverstripe/webauthn-authenticator": "^5",
     "sunnysideup/cms-dark-theme": "dev-main",
+    "sunnysideup/cms-niceties": "dev-master",
     "sunnysideup/default-predict": "dev-main",
     "sunnysideup/email_address_database_field": "dev-master",
     "sunnysideup/export-all-from-modeladmin": "dev-master",
