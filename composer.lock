@@ -6744,12 +6744,21 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
+<<<<<<< HEAD
                 "reference": "5a03b5992e7f18fa6124488729eb9cbe21a57f61"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/5a03b5992e7f18fa6124488729eb9cbe21a57f61",
                 "reference": "5a03b5992e7f18fa6124488729eb9cbe21a57f61",
+=======
+                "reference": "cbfcb0d9f55bbbae6c01564280c8b5546f9e28e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/cbfcb0d9f55bbbae6c01564280c8b5546f9e28e4",
+                "reference": "cbfcb0d9f55bbbae6c01564280c8b5546f9e28e4",
+>>>>>>> ec1022adc34655773e8034d91a651a3eeff3a79a
                 "shasum": ""
             },
             "require": {
@@ -6789,10 +6798,17 @@
             ],
             "description": "manage site - high level overview",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.5",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
             "time": "2024-03-12T21:31:52+00:00"
+=======
+                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.3",
+                "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
+            },
+            "time": "2024-03-10T23:36:56+00:00"
+>>>>>>> ec1022adc34655773e8034d91a651a3eeff3a79a
         },
         {
             "name": "sunnysideup/site-wide-search",
@@ -9938,6 +9954,7 @@
         },
         {
             "name": "webonyx/graphql-php",
+<<<<<<< HEAD
             "version": "v15.11.1",
             "source": {
                 "type": "git",
@@ -9948,6 +9965,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/ab4ff2719b101dc3bfc3aaaf800edc21a98c56dc",
                 "reference": "ab4ff2719b101dc3bfc3aaaf800edc21a98c56dc",
+=======
+            "version": "v15.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "b4ca60c0d0249674877bd8c7dc253bbc5376f40a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b4ca60c0d0249674877bd8c7dc253bbc5376f40a",
+                "reference": "b4ca60c0d0249674877bd8c7dc253bbc5376f40a",
+>>>>>>> ec1022adc34655773e8034d91a651a3eeff3a79a
                 "shasum": ""
             },
             "require": {
@@ -10000,7 +10029,11 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/webonyx/graphql-php/tree/v15.11.1"
+=======
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.11.0"
+>>>>>>> ec1022adc34655773e8034d91a651a3eeff3a79a
             },
             "funding": [
                 {
@@ -10008,7 +10041,11 @@
                     "type": "open_collective"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-03-11T10:21:05+00:00"
+=======
+            "time": "2024-03-10T14:29:50+00:00"
+>>>>>>> ec1022adc34655773e8034d91a651a3eeff3a79a
         }
     ],
     "packages-dev": [
