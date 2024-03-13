@@ -6640,12 +6640,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-externalurlfield.git",
-                "reference": "e61814a4ea6ec2fbaee52b12e9cc02dde84bfd9b"
+                "reference": "a9e4b9163a8c8dfa850a274adaeb4743a5c3da91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-externalurlfield/zipball/e61814a4ea6ec2fbaee52b12e9cc02dde84bfd9b",
-                "reference": "e61814a4ea6ec2fbaee52b12e9cc02dde84bfd9b",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-externalurlfield/zipball/a9e4b9163a8c8dfa850a274adaeb4743a5c3da91",
+                "reference": "a9e4b9163a8c8dfa850a274adaeb4743a5c3da91",
                 "shasum": ""
             },
             "require": {
@@ -6683,9 +6683,9 @@
                 "url"
             ],
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-externalurlfield/tree/3.0.2"
+                "source": "https://github.com/sunnysideup/silverstripe-externalurlfield/tree/3.1.0"
             },
-            "time": "2023-11-20T03:33:02+00:00"
+            "time": "2024-03-13T03:17:09+00:00"
         },
         {
             "name": "sunnysideup/simple-template-caching",
