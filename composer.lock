@@ -4347,12 +4347,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "164e2a18abba7ab175e6640f825bb5e8834fbc05"
+                "reference": "492cb800fa09f7c1448a217393e61fed69b2cec6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/164e2a18abba7ab175e6640f825bb5e8834fbc05",
-                "reference": "164e2a18abba7ab175e6640f825bb5e8834fbc05",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/492cb800fa09f7c1448a217393e61fed69b2cec6",
+                "reference": "492cb800fa09f7c1448a217393e61fed69b2cec6",
                 "shasum": ""
             },
             "require": {
@@ -4474,7 +4474,7 @@
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
                 "source": "https://github.com/silverstripe/silverstripe-framework/tree/5"
             },
-            "time": "2024-03-22T08:36:10+00:00"
+            "time": "2024-03-25T23:03:46+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -5818,12 +5818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sunnysideup/silverstripe-cms-niceties.git",
-                "reference": "c841f335d6fad292646d6f607c6d6f390a2e6826"
+                "reference": "cc8d1fee45c9bb86f909f402254af887b0a77866"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-cms-niceties/zipball/c841f335d6fad292646d6f607c6d6f390a2e6826",
-                "reference": "c841f335d6fad292646d6f607c6d6f390a2e6826",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-cms-niceties/zipball/cc8d1fee45c9bb86f909f402254af887b0a77866",
+                "reference": "cc8d1fee45c9bb86f909f402254af887b0a77866",
                 "shasum": ""
             },
             "require": {
@@ -5869,9 +5869,9 @@
             ],
             "support": {
                 "issues": "https://github.com/sunnysideup/silverstripe-cms-niceties/issues",
-                "source": "https://github.com/sunnysideup/silverstripe-cms-niceties/tree/5.5.3"
+                "source": "https://github.com/sunnysideup/silverstripe-cms-niceties/tree/5.5.4"
             },
-            "time": "2024-03-14T17:07:02+00:00"
+            "time": "2024-03-25T23:18:07+00:00"
         },
         {
             "name": "sunnysideup/cms_edit_link_field",
@@ -6195,12 +6195,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-health-check.git",
-                "reference": "d5b87554141127a39fd923724bfaaf8efb67e8cf"
+                "reference": "c6a8ca082c99422f3eb25649af609642c090ba58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-health-check/zipball/d5b87554141127a39fd923724bfaaf8efb67e8cf",
-                "reference": "d5b87554141127a39fd923724bfaaf8efb67e8cf",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-health-check/zipball/c6a8ca082c99422f3eb25649af609642c090ba58",
+                "reference": "c6a8ca082c99422f3eb25649af609642c090ba58",
                 "shasum": ""
             },
             "require": {
@@ -6243,10 +6243,10 @@
                 "weather"
             ],
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-health-check/tree/4.20.0",
+                "source": "https://github.com/sunnysideup/silverstripe-health-check/tree/4.20.1",
                 "issues": "https://github.com/sunnysideup/silverstripe-health-check/issues"
             },
-            "time": "2024-01-25T09:48:57+00:00"
+            "time": "2024-03-25T23:17:43+00:00"
         },
         {
             "name": "sunnysideup/metatags",
@@ -6743,12 +6743,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
-                "reference": "ebff8106a0970cf71ef4ce01891c70c063fbe53f"
+                "reference": "71bd8865e5d558a106e3010c767170776e9dc5bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/ebff8106a0970cf71ef4ce01891c70c063fbe53f",
-                "reference": "ebff8106a0970cf71ef4ce01891c70c063fbe53f",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/71bd8865e5d558a106e3010c767170776e9dc5bd",
+                "reference": "71bd8865e5d558a106e3010c767170776e9dc5bd",
                 "shasum": ""
             },
             "require": {
@@ -6788,10 +6788,10 @@
             ],
             "description": "manage site - high level overview",
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.21",
+                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.23",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
-            "time": "2024-03-25T21:53:56+00:00"
+            "time": "2024-03-25T23:21:44+00:00"
         },
         {
             "name": "sunnysideup/site-wide-search",
