@@ -10,6 +10,9 @@ SilverStripe\Admin\LeftAndMain:
         - Sunnysideup-SiteManagement-Admin-SiteAdminProject
         - Sunnysideup-SiteManagement-Admin-SiteAdminMonitoring
         - Sunnysideup-SiteManagement-Admin-SiteAdminPasswords
+        - Sunnysideup-SiteManagement-Admin-SiteAdminLinkAssigment
+        - Sunnysideup-SiteManagement-Admin-SiteAdminLinksMarketing
+        - Sunnysideup-SiteManagement-Admin-SiteAdminLinksTech
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinks
         - Sunnysideup-SiteManagement-Admin-SiteAdminPages
     'People':
