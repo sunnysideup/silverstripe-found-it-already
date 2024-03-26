@@ -6743,12 +6743,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-site-management.git",
-                "reference": "72729c9e3858c84cf746dd2335914b9fe7d0bbd6"
+                "reference": "5086f95a9106a25affb92ecb194a5d22a5d54196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/72729c9e3858c84cf746dd2335914b9fe7d0bbd6",
-                "reference": "72729c9e3858c84cf746dd2335914b9fe7d0bbd6",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-site-management/zipball/5086f95a9106a25affb92ecb194a5d22a5d54196",
+                "reference": "5086f95a9106a25affb92ecb194a5d22a5d54196",
                 "shasum": ""
             },
             "require": {
@@ -6788,10 +6788,10 @@
             ],
             "description": "manage site - high level overview",
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.26",
+                "source": "https://github.com/sunnysideup/silverstripe-site-management/tree/7.35.28",
                 "issues": "https://github.com/sunnysideup/silverstripe-site-management/issues"
             },
-            "time": "2024-03-26T01:36:52+00:00"
+            "time": "2024-03-26T19:04:06+00:00"
         },
         {
             "name": "sunnysideup/site-wide-search",
@@ -6906,12 +6906,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:sunnysideup/silverstripe-theme-info-only.git",
-                "reference": "59836a836783d0f4026ecce054f6c834a2dd7ee5"
+                "reference": "c6a1eb03f2c3092f1ac50b32d293bce3df6a4bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/59836a836783d0f4026ecce054f6c834a2dd7ee5",
-                "reference": "59836a836783d0f4026ecce054f6c834a2dd7ee5",
+                "url": "https://api.github.com/repos/sunnysideup/silverstripe-theme-info-only/zipball/c6a1eb03f2c3092f1ac50b32d293bce3df6a4bb0",
+                "reference": "c6a1eb03f2c3092f1ac50b32d293bce3df6a4bb0",
                 "shasum": ""
             },
             "require": {
@@ -6939,10 +6939,10 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/1.22.5",
+                "source": "https://github.com/sunnysideup/silverstripe-theme-info-only/tree/1.22.6",
                 "issues": "https://github.com/sunnysideup/silverstripe-theme-info-only/issues"
             },
-            "time": "2024-03-26T01:36:11+00:00"
+            "time": "2024-03-26T19:03:34+00:00"
         },
         {
             "name": "sunnysideup/title_dataobject",
@@ -10165,16 +10165,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
                 "shasum": ""
             },
             "require": {
@@ -10185,7 +10185,7 @@
             "require-dev": {
                 "phpstan/phpstan": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
-                "symfony/phpunit-bridge": "^6.0"
+                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.5"
             },
             "type": "library",
             "autoload": {
@@ -10209,9 +10209,9 @@
                 "performance"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.4"
             },
             "funding": [
                 {
@@ -10227,7 +10227,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T21:32:43+00:00"
+            "time": "2024-03-26T18:29:49+00:00"
         },
         {
             "name": "doctrine/deprecations",
