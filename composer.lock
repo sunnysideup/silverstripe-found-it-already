@@ -3784,17 +3784,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "72371d70ca0cf5230e29fa03cf1ffef8efee2e0d"
+                "reference": "d03d790c4457cf171d6a903efbda35fe1fec965c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/72371d70ca0cf5230e29fa03cf1ffef8efee2e0d",
-                "reference": "72371d70ca0cf5230e29fa03cf1ffef8efee2e0d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/d03d790c4457cf171d6a903efbda35fe1fec965c",
+                "reference": "d03d790c4457cf171d6a903efbda35fe1fec965c",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.1",
-                "silverstripe/framework": "^5.1.11",
+                "silverstripe/framework": "^5.3",
                 "silverstripe/vendor-plugin": "^2",
                 "silverstripe/versioned": "^2"
             },
@@ -3848,7 +3848,7 @@
                 "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
                 "source": "https://github.com/silverstripe/silverstripe-admin/tree/2"
             },
-            "time": "2024-04-15T22:20:49+00:00"
+            "time": "2024-04-18T23:03:27+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -4350,12 +4350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "3e1b5e64529923833670163d75ff3bac515fc6a5"
+                "reference": "c2199ff88be99f3944c02f59b21c8eec6adc14fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/3e1b5e64529923833670163d75ff3bac515fc6a5",
-                "reference": "3e1b5e64529923833670163d75ff3bac515fc6a5",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/c2199ff88be99f3944c02f59b21c8eec6adc14fb",
+                "reference": "c2199ff88be99f3944c02f59b21c8eec6adc14fb",
                 "shasum": ""
             },
             "require": {
@@ -4477,7 +4477,7 @@
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
                 "source": "https://github.com/silverstripe/silverstripe-framework/tree/5"
             },
-            "time": "2024-04-13T14:23:22+00:00"
+            "time": "2024-04-18T23:02:44+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -10296,16 +10296,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.53.0",
+            "version": "v3.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008"
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/69a19093a9ded8d1baac62ed6c009b8bc148d008",
-                "reference": "69a19093a9ded8d1baac62ed6c009b8bc148d008",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2aecbc8640d7906c38777b3dcab6f4ca79004d08",
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08",
                 "shasum": ""
             },
             "require": {
@@ -10377,7 +10377,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.53.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.54.0"
             },
             "funding": [
                 {
@@ -10385,7 +10385,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-08T15:03:00+00:00"
+            "time": "2024-04-17T08:12:13+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
