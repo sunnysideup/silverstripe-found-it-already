@@ -11,13 +11,16 @@ SilverStripe\Admin\LeftAndMain:
         - Sunnysideup-SiteManagement-Admin-SiteAdminNews
         - Sunnysideup-SiteManagement-Admin-SiteAdminMonitoring
         - Sunnysideup-SiteManagement-Admin-SiteAdminPasswords
+    'Links':
+      priority: 1000
+      children:
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinkAssigment
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinksMarketing
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinksTech
         - Sunnysideup-SiteManagement-Admin-SiteAdminLinks
         - Sunnysideup-SiteManagement-Admin-SiteAdminPages
     'People':
-      priority: 1000
+      priority: 999
       children:
         - Sunnysideup-SiteManagement-Admin-SiteAdminPeople
         - Sunnysideup-SiteManagement-Admin-SiteAdminProspect
@@ -31,13 +34,14 @@ SilverStripe\Admin\LeftAndMain:
     'Admin Only':
       priority: 200
       children:
+        - Sunnysideup-DashboardWelcomeQuicklinks-Admin-DashboardWelcomeQuicklinks
         - SilverStripe-Admin-SecurityAdmin
         - SilverStripe-CMS-Controllers-CMSPagesController
         - SilverStripe-AssetAdmin-Controller-AssetAdmin
         - SilverStripe-Reports-ReportAdmin
         - SilverStripe-SiteConfig-SiteConfigLeftAndMain
 
-    Advanced:
+    'Advanced':
       priority: 100
       children:
         - SilverStripe-CampaignAdmin-CampaignAdmin

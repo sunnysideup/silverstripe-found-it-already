@@ -9,6 +9,7 @@ use SilverStripe\CMS\Controllers\ContentController;
  * @method \Page data()
  * @mixin \Page
  * @mixin \Sunnysideup\SimpleTemplateCaching\Extensions\PageControllerExtension
+ * @mixin \Sunnysideup\SimpleTemplateCaching\Extensions\ControllerExtension
  */
 class PageController extends ContentController
 {
