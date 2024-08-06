@@ -12,9 +12,10 @@
   "require": {
     "php": ">=8.2",
     "bimthebam/silverstripe-native-color-input": "*",
+    "lekoala/silverstripe-admini": "dev-master",
     "sandervanscheepen/silverstripe-cms-userswitcher": "dev-master",
-    "silverstripe/recipe-cms": "^5",
     "silverstripe/mfa": " ^5",
+    "silverstripe/recipe-cms": "^5",
     "silverstripe/tagfield": "3.0",
     "silverstripe/totp-authenticator": "^5",
     "silverstripe/webauthn-authenticator": "^5",
@@ -125,4 +126,5 @@
       "vendor/bin/sake dev/tasks/Firesphere-CSPHeaders-Tasks-SRIRefreshTask"
     ]
   }
+
 }
