@@ -35,3 +35,6 @@ public/_graphql/
 
 /themes/sswebpack_engine_only
 /themes/theme-info-only/
+
+/release.log
+/release_running
